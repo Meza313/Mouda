@@ -1,0 +1,189 @@
+body{
+    font-family: "Inter", sans-serif;
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 33%, rgba(13,7,37,1) 100%); 
+    margin: 0px;
+    height:6000px;
+}
+/* Start nav */
+header{
+    background-color: #0B061F;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    position: fixed;
+    left: 0%; 
+    right: 0%; 
+    z-index: 999px;
+}
+.Mouda{
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    text-shadow: 2px 2px 40px white;
+}
+.name-logo{
+    display: flex;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+.login{
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #6A2FF8;
+    border-radius: 25px;
+    margin-right: 5px;
+    margin-left: 40px;
+    font-size: 16px;
+    width: 60px;
+}
+.signup{
+    padding: 10px 20px;
+    background-color: #6A2FF8;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #6A2FF8;
+    border-radius: 25px;
+    font-size: 16px;
+    width: 60px;
+}
+.signup:hover{
+    background-color: #361283;
+    border-color: #361283;
+}
+.login:hover{
+    background-color: #231D33;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    padding-left: 15px;
+}
+.nav:hover{
+    color: #6A2FF8;
+}
+/* End nav */
+
+/* Start hero section */
+.head1{
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    color: linear-gradient(0deg, rgb(102, 52, 52) 33%, rgb(105, 170, 69) 100%);
+    justify-content: center;
+    padding-top: 100px;
+    font-weight: 600;
+    font-size: 72px;
+    /* background: -webkit-linear-gradient(#fff 0%, #fff 40%, #A48FD6 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background: linear-gradient(to right, #fff 0%, #fff 30%, #A48FD6 100%);
+    background-clip: text;
+    color: transparent;
+}
+.head2{
+    color: #7A52FF;
+    font-size: 80px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    text-transform:uppercase;
+    text-shadow: 60px 10px 80px #6A2FF8, -60px -10px 80px #6A2FF8;
+}
+.subhead{
+    color: white;
+    font-size: 24px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download{
+    display: flex; 
+    align-items: center; 
+    margin-left: 75px;
+    margin-top: 100px;
+    /* scale: .9; */
+}
+.cta{
+    color: white;
+    background-color: #6A2FF8;
+    border: 1px solid #6A2FF8;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 32px;
+    font-weight: 700;
+    /* margin: 50px 580px; */
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+}
+.cta:hover{
+    scale: 1.05;
+    transition: .5s;
+} 
+main{
+    padding-top: 30px;
+    min-height: 100vh;
+}
+/* End hero section */
+
+/* Start features */
+.feature1{
+    background-color: #160643;
+    height: 512px;
+    width: 1350px;
+    border: 1px solid #160643;
+    border-radius: 0 100px 100px 0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.feature-info{
+    padding: 20px 20px;
+}
+.feature-head{
+    color: white;
+    font-size: 42px;
+}
+.feature-body{
+    color: white;
+    font-weight: 200;
+}
+.feature2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #160643;
+    height: 512px;
+    width: 1350px;
+    border: 1px solid #160643;
+    border-radius: 100px 0 0 100px;
+    margin-top: 20px;
+    margin-left: 67px;
+}
+.feature3{
+    background-color: #160643;
+    height: 512px;
+    width: 1350px;
+    border: 1px solid #160643;
+    border-radius: 0 100px 100px 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+/* End features */
+
+/* Start testimonials */
