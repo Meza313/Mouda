@@ -187,7 +187,7 @@ main{
 /* End features */
 
 /* Start testimonials */
-@media (max-width: 600px) {
+@media (max-width: 440px) {
     main{
         min-height: auto;
     }
