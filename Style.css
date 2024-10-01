@@ -187,17 +187,24 @@ main{
 /* End features */
 
 /* Start testimonials */
-@media (max-width: 440px) {
+@media (max-width: 600px) {
+    main{
+        min-height: auto;
+    }
     header{
         padding: 10px 24px;
     }
-    .mouda{
+    .Mouda{
         font-size: 24px;
     }
     nav{
         display: none;
     }
-    .head1 .head2{
+    .head1 {
+        font-size: 28px;
+        padding-top: 50px;
+    }
+    .head2{
         font-size: 28px;
     }
     .subhead{
@@ -208,8 +215,49 @@ main{
         padding: 5px 7px;
         font-size: 20px;
         font-weight: 700;
-        margin: 120px auto;
+        margin: 12px auto;
         display: flex;
         justify-content: center;
         width: fit-content;
+    }
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
+    .download{
+        justify-content: center;
+        margin: 20px auto;
+        scale: .8;
+        width: 150px;
+    }
+    .feature1{
+        width: 400px;
+        height: 140px;
+        border-radius: 0 25px 25px 0;
+        padding: 25px 12px;
+    }
+    .image{
+        width: 140px;
+    }
+    .feature-head{
+        font-size: 16px;
+    }
+    .feature-info{
+        padding: 0 10px;
+    }
+    .feature-body{
+        font-size: 12px;
+    }
+    .feature2{
+        width: 400px;
+        height: 140px;
+        border-radius: 25px 0 0 25px;
+        padding: 25px 12px;
+        margin-left:auto;
+    }
+    .feature3{
+        width: 400px;
+        height: 140px;
+        border-radius: 0 25px 25px 0;
+        padding: 25px 12px;
     }
