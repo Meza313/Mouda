@@ -203,9 +203,11 @@ main{
     .head1 {
         font-size: 28px;
         padding-top: 50px;
+        margin: 0 auto;
     }
     .head2{
         font-size: 28px;
+        margin: 0 auto;
     }
     .subhead{
         font-size: 12px;
